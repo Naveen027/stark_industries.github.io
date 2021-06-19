@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#form{
+    background-image:linear-gradient(rgba(238, 230, 230, 0.336),blue,rgb(73, 66, 75)) ;
+    position: absolute;;
+    top: 50%;
+    left: 50%;
+    height:405px ;
+    width: 450px;
+    transform: translate(-50%,-50%);
+    
+    
+}
+#create{
+    color: rgb(39, 39, 48);
+    text-align: center;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#user{
+    margin: 25px;
+   border-bottom: 3px solid rgb(167, 77, 167);
+}
+#user input{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: none;
+    color:white;
+}
+#newpass{
+    position: relative;
+    border-bottom: 3px solid rgb(167, 77, 167);
+    margin: 25px;
+}
+#newpass input{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: none;
+    color:wheat;
+}
+#pass{
+    position: relative;
+    border-bottom: 3px solid rgb(167, 77, 167);
+    margin: 25px;
+}
+#pass input{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: none;
+    color:wheat;
+}
+#submit input{
+    font-size: 20px;
+   font-weight: bolder;
+    color: rgb(12, 10, 8);
+   background-color: rgb(75, 75, 131);
+   height: 30px;
+   width: 125px;
+   align-items: center;
+}
+#submit{
+    padding-left: 150px;
+    padding-top: 22px;
+}
+#form h3{
+    padding-left: 100px;
+    color: rgb(167, 77, 167);
+}
+#form h3 a{
+    color:black;
+}

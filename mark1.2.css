@@ -1,0 +1,237 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    background: url(images/background/back4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover cover;
+}
+
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+    padding: 20px;
+    margin-bottom: 0px;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 35px;
+    line-height: 20px;
+     font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(38, 38, 206);
+}
+
+/*------------------------------------main----------------------------*/
+ .col-lg-6 {
+    height: 620px;
+    margin-bottom: 0px;
+}
+
+.container-fluid .row .col-lg-6 p{
+    color: rgb(218, 202, 202);
+    text-align: center;
+    font-size:28px;
+}
+
+#ae{
+    margin-top: 140px;
+    background-color:transparent;
+    border: 0px solid transparent;
+}
+
+#tony{
+    color: blue;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.col-lg-6 img{
+    margin-top: 20px;
+    height: 550px; 
+    width: 620px;
+    transition: transform .5s;
+}
+
+.col-lg-6 img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  
+  }
+
+
+/*------------------------------------------images suits---------------------*/
+.col-sm-2{
+        width: 313px;
+        height: 415px;
+   
+}
+.container-fluid  h1{
+    color: rgb(181, 187, 219);
+    text-shadow:2px 2px 3px rgb(38, 38, 206);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid rgb(109, 104, 104);
+    background-color: black;
+}
+
+h3{
+    color: white;
+}
+
+.col-sm-2 img{
+    height: 360px;
+    width: 300px;
+    margin-top:15px ;
+    transition: transform .5s;
+}
+
+.col-sm-2 img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  
+  }
+
+
+/*---------------------------------jarvs-----------------------------*/
+
+#jarvis{
+    background-image: url(images/background/back4.jpg);
+    height: 640px;  
+}
+
+#jarvisrow{
+    margin-top: 95px;
+}
+
+.col-sm-12 h2{
+      color: rgb(113, 99, 235);
+      text-align: center;
+      font-weight: bold;
+      text-shadow: 2px 2px 3px rgb(201, 201, 226);
+     
+  }
+
+  #jp{
+    color: rgb(219, 202, 202);
+    text-align: center;
+    font-size:23px;
+  }
+
+  #jh2{
+    color: blue;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px white;
+    font-size: 50px;
+    text-align: center;
+  }
+  #jh1{
+      color: rgb(192, 181, 181);
+      text-align: center;
+      font-weight: bold;
+  }
+  #img{
+    height: 340px;
+    width: 440px;
+    margin-top:115px;
+    margin-left:160px;
+  }
+  /*------------------------------about me----------------------*/
+#about_stark{
+    background:url(images/background/last.jpg);
+    background-size:cover;
+    height: 600px;
+
+}
+#abouth2{
+    margin-top: 120px;
+}
+  .col-sm-12 img{
+      height: 300px;
+      width: 510px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 70px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+  }
+.col-sm-12 button{
+    color: rgb(88, 88, 192);
+    background-color: grey;
+    display: inline;
+    margin-left: 435px;
+    margin-right: auto;
+}
+
+/*---------------------footer------------------------------------------------*/
+
+footer{
+    color: rgb(134, 128, 128);
+    background-color: rgb(0, 0, 0);
+}
+
+
+#icon{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+ 
+    
+}
+#icon ul {
+    position: relative;
+    display: flex;
+}
+
+#icon ul li{
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+  cursor: pointer;
+    
+}
+
+#icon ul li a{
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+#icon ul li a .fa{
+    font-size: 34px;
+    
+}
+
+ol, ul {
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0px 10px;
+    padding: 0px 3px 0px 3px ;
+}
+
+p span {
+    margin: 10px 0px 10px;
+    padding: 0px 5px 0px 65px ;
+}
+
+
+/*-------------------mediaq-----------------------------------------*/
